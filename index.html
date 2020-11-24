@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/layout.css">
+    <title>小小壽司店</title>
+</head>
+<body>
+    
+    <header id='container'>
+
+        <nav class="navbar navbar-expand-lg">
+            <a href="index.html">
+                <img src="./img/sushi_6.png" alt="商標" class="mylogo">
+            </a>
+        
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+        
+                    <li class="nav-item active "><a class="nav-link" href="https://about.instagram.com/" >追蹤我們</a></li>
+                    <li class="nav-item "><a class="nav-link" href="shop.php" >線上購物</a></li>
+                    <li class="nav-item "><a class="nav-link" href="https://www.104.com.tw/jobs/main/" >人才招募</a></li>
+                    
+        
+                </ul>
+        
+                <div class="ml-auto">
+                    <a class="btn btn-outline-dark"  href="login.html">登入</a>
+                    <a class="btn btn-outline-dark"  href="cart.php">購物車</a>
+                    <a class="btn btn-outline-dark"  href="check.php">訂單查詢</a>
+                </div>
+            </div>
+        
+        </nav>
+        
+        </header>
+
+    <section class="container-fluid">
+        <div class="row">
+            <div class="carousel slide" id="carouselBanner" data-ride="carousel">
+
+                <ol class="carousel-indicators"> <!--輪播模板-->
+                    <li data-target="#carouselBanner" data-slide-to="0"  class="active" ></li>
+                    <li data-target="#carouselBanner" data-slide-to="1"></li>
+                    <li data-target="#carouselBanner" data-slide-to="2"></li>
+                </ol>
+
+                <a class="carousel-control-prev" href="#carouselBanner" role="button" data-slide="prev">  <!--右箭頭-->
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+
+                <a class="carousel-control-next" href="#carouselBanner" role="button" data-slide="next"> <!--左箭頭-->
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+               </a>
+
+               <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img class="d-block w-100"src="https://picsum.photos/2000/700?random=0" alt="第一張圖">
+                        <div class="carousel-caption d-none d-md-block text-white">
+                            <h3>〖新品預告〗</h3>
+                            <p>3款限定料理特別推出，多層次滋味讓人欲罷不能，蒜香洋蔥牛肉壽司 香濃牛肉汁佐上清爽石澤醬，多層次濃厚口感
+                                奶油乳酪蟹肉棒 濃濃奶香與清甜蟹肉，在口中迸發意猶未盡的滋味
+                                炙烤味噌美乃滋鮭魚 獨家特製味噌美乃滋，鹹香滋味提升鮮度
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                        <img class="d-block w-100"src="https://picsum.photos/2000/700?random=1" alt="第一張圖">
+                        <div class="carousel-caption d-none d-md-block text-white">
+                            <h3>〖新品預告〗</h3>
+                            <p>3款限定料理特別推出，多層次滋味讓人欲罷不能，蒜香洋蔥牛肉壽司 香濃牛肉汁佐上清爽石澤醬，多層次濃厚口感
+                                奶油乳酪蟹肉棒 濃濃奶香與清甜蟹肉，在口中迸發意猶未盡的滋味
+                                炙烤味噌美乃滋鮭魚 獨家特製味噌美乃滋，鹹香滋味提升鮮度
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                        <img class="d-block w-100"src="https://picsum.photos/2000/700?random=2" alt="第一張圖">
+                        <div class="carousel-caption d-none d-md-block text-white">
+                            <h3>〖新品預告〗</h3>
+                            <p>3款限定料理特別推出，多層次滋味讓人欲罷不能，蒜香洋蔥牛肉壽司 香濃牛肉汁佐上清爽石澤醬，多層次濃厚口感
+                                奶油乳酪蟹肉棒 濃濃奶香與清甜蟹肉，在口中迸發意猶未盡的滋味
+                                炙烤味噌美乃滋鮭魚 獨家特製味噌美乃滋，鹹香滋味提升鮮度
+                            </p>
+                        </div>
+                    </div>
+
+               </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h3>分店資訊</h3>
+        <div class="row">
+            <div class="col-12 col-md-3 p-2 mb-5">
+                <div class="box-content">
+                    <div>
+                        <img src="./img/market.png" alt="店家圖片" class="img-fluid d-block m-auto w-75">
+                    </div>
+                    <div class="site text-center pt-3">
+                        兔兔壽司--台中站前店
+                    </div>
+                    <div class="tome text-center pt-3">營業時間：00:00~24:00</div>
+                    <div class="tel text-center pt-3"> 店面電話：0965-854-298</div>
+                    <div class="address text-center pt-3">
+                        台中市中區台灣大道一段1號
+                    </div>
+                    <div class="mb-2 pt-3">
+                        <button type="button" class="btn btn-danger btn-lg btn-block">相關資訊</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-3 p-2 mb-5">
+                <div class="box-content">
+                    <div>
+                        <img src="./img/shoe-shop.png" alt="店家圖片" class="img-fluid d-block m-auto w-75">
+                    </div>
+                    <div class="site text-center pt-3">
+                        兔兔壽司--林口三井店
+                    </div>
+                    <div class="tome text-center pt-3">營業時間：11:00~22:00</div>
+                    <div class="tel text-center pt-3"> 店面電話：0265-458-278</div>
+                    <div class="address text-center pt-3">
+                        新北市林口區文化路一段356號
+                    </div>
+                    <div class="mb-2 pt-3">
+                        <button type="button" class="btn btn-danger btn-lg btn-block">相關資訊</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-3 p-2 mb-5">
+                <div class="box-content">
+                    <div>
+                        <img src="./img/shop.png" alt="店家圖片" class="img-fluid d-block m-auto w-75">
+                    </div>
+                    <div class="site text-center pt-3">
+                        兔兔壽司--桃園青埔店
+                    </div>
+                    <div class="tome text-center pt-3">營業時間：08:00~21:00</div>
+                    <div class="tel text-center pt-3"> 店面電話：0365-854-298</div>
+                    <div class="address text-center pt-3">
+                        桃園市中壢區青埔里領航北路三段257號
+                    </div>
+                    <div class="mb-2 pt-3">
+                        <button type="button" class="btn btn-danger btn-lg btn-block">相關資訊</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-3 p-2 mb-5">
+                <div class="box-content">
+                    <div>
+                        <img src="./img/shopping-store.png" alt="店家圖片" class="img-fluid d-block m-auto w-75">
+                    </div>
+                    <div class="site text-center pt-3">
+                        兔兔壽司--新月廣場店
+                    </div>
+                    <div class="tome text-center pt-3">營業時間：11:00~21:00</div>
+                    <div class="tel text-center pt-3"> 店面電話：0365-854-298</div>
+                    <div class="address text-center pt-3">
+                        宜蘭縣宜蘭市民權北路二段25巷6號
+                    </div>
+                    <div class="mb-2 pt-3">
+                        <button type="button" class="btn btn-danger btn-lg btn-block">相關資訊</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+        
+    
+
+    <div class="footer">
+        <div class="mes">兔兔壽司股份有限公司</div>
+        <div class="addr"> oo市oo鄉oo路125巷10弄28號</div>
+            
+    </div>
+
+    <div class="cr">
+        &copy; Copyright 2020 by me
+    </div>
+
+    
+
+</body>
+</html>
